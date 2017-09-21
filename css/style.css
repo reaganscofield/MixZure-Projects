@@ -1,0 +1,66 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #ffffff; }
+  .navbar .navbar-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+    color: #3292a6; }
+
+#showcase {
+  position: relative;
+  min-height: 600px; }
+  #showcase .primary-overalay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px; }
+
+#newsletter {
+  background: black; }
+
+#newsletterMain {
+  background: black;
+  box-shadow: 2px 2px 5px #3292a6; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px black solid; }
+
+#about {
+  background: black; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 30px; }
+
+#authors #card {
+  background: red;
+  color: black; }
+
+#authors #icons {
+  color: #fff; }
+
+#authors .card {
+  background: black;
+  color: #ffffff; }
+  #authors .card .fa {
+    color: red; }
+
+#contact {
+  background: red; }
+
+#main-footer {
+  background: black; }
+
+#main-footer2 {
+  background: black;
+  color: #ffffff;
+  cursor: pointer; }

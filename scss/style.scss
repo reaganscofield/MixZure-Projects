@@ -1,0 +1,104 @@
+$primaryColor: #3292a6;
+//primaryOverlay rgb(50,146,166,0.8);
+
+
+
+
+
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primaryColor;
+  opacity: 0.9;
+  background: #ffffff;
+
+  .navbar-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+    color: $primaryColor;
+  }
+}
+
+#showcase {
+  position: relative;
+  //background here background:url('../img/background.jpeg');
+  min-height:600px;
+
+
+  .primary-overalay {
+    // background opacity here
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+#newsletter {
+  background: black;
+}
+
+#newsletterMain {
+  background: black;
+  box-shadow: 2px 2px 5px $primaryColor;
+}
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px black solid;
+}
+
+
+#about {
+  background: black;
+}
+
+#authors {
+
+  img {
+    margin-top: -50px;
+  }
+
+  .fa {
+    font-size: 30px;
+  }
+
+  #card {
+    background: red;
+    color: black;
+  }
+
+  #icons {
+    color: #fff;
+  }
+
+  .card {
+    background: black;
+    color: #ffffff;
+
+    .fa {
+      color: red;
+    }
+
+  }
+}
+
+
+#contact {
+  background: red;
+}
+
+#main-footer {
+  background: black;
+}
+
+#main-footer2 {
+  background: black;
+  color: #ffffff;
+  cursor: pointer;
+}
